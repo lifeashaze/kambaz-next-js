@@ -16,16 +16,22 @@ export default function Home() {
               bhagawati.ab@northeastern.edu
             </a>
           </li>
-          <li>
-            Github Repo:{" "}
-            <a href="https://github.com/lifeashaze/kambaz-next-js">Github</a>
-          </li>
         </ul>
       </div>
 
       <h2>
-        Access Kambaz <a href="/Labs">Here</a>
+        Access Kambaz <a href="/Dashboard">Here</a>
       </h2>
+
+      <h2>
+        Access Labs <a href="/Labs">Here</a>
+      </h2>
+
+      <h2>
+        Access Github Repo{" "}
+        <a href="https://github.com/lifeashaze/kambaz-next-js">Here</a>
+      </h2>
+      
     </div>
   );
 }
