@@ -31,7 +31,6 @@ export default function Home() {
         Access Github Repo{" "}
         <a href="https://github.com/lifeashaze/kambaz-next-js">Here</a>
       </h2>
-      
     </div>
   );
 }

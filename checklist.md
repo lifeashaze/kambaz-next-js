@@ -4,8 +4,8 @@
 - [x] Deployed to Vercel
 
 ## Identification
-- [ ] Can easily identify whose assignment this is
-- [ ] Link to GitHub
+- [x] Can easily identify whose assignment this is
+- [x] Link to GitHub
 
 ## Navigation
 - [x] Can navigate to Labs easily
@@ -129,10 +129,10 @@
 
 ## Kambaz - Courses - Home
 - [x] Home screen
-- [ ] Course Status component
-- [ ] Buttons at the top
-- [ ] At least 2 modules
-- [ ] Looks somewhat similar to wireframe
+- [x] Course Status component
+- [x] Buttons at the top
+- [x] At least 2 modules
+- [x] Looks somewhat similar to wireframe
 
 ---
 
@@ -141,23 +141,23 @@
 - [x] Can navigate to other screens
 - [x] Input field at the top with placeholder
 - [x] Buttons as shown
-- [ ] Headings/sections: Assignments, Quizzes, Exams, Project
-- [ ] Assignment links as shown
+- [x] Headings/sections: Assignments, Quizzes, Exams, Project
+- [x] Assignment links as shown
 
 ---
 
 ## Kambaz - Assignment Editor
-- [ ] Assignment Name input has default value
-- [ ] Assignment Description textarea has default value
-- [ ] Points field is type number
-- [ ] Assignment Group dropdown
-- [ ] Display Grade dropdown
-- [ ] Submission Type dropdown
-- [ ] Online Entry Options checkboxes
-- [ ] Assign to input field has default value
-- [ ] Due date field (type date)
-- [ ] Due date has some default value
-- [ ] Available from date field (type date)
-- [ ] Available from field has default date
-- [ ] Until date field (type date)
-- [ ] Until field has default date
+- [x] Assignment Name input has default value
+- [x] Assignment Description textarea has default value
+- [x] Points field is type number
+- [x] Assignment Group dropdown
+- [x] Display Grade dropdown
+- [x] Submission Type dropdown
+- [x] Online Entry Options checkboxes
+- [x] Assign to input field has default value
+- [x] Due date field (type date)
+- [x] Due date has some default value
+- [x] Available from date field (type date)
+- [x] Available from field has default date
+- [x] Until date field (type date)
+- [x] Until field has default date
