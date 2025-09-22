@@ -16,10 +16,41 @@ export default function Assignments() {
             className="wd-assignment-link"
           >
             A1 - ENV + HTML
-          </Link>{" "}
+          </Link>
+          <p>
+            Multiple Modules | <b>Not available until</b>May 6 at 12:00 a.m |{" "}
+          </p>
+          <p>
+            <b>Due</b> May 13 at 11:59 p.m | 100pts
+          </p>
         </li>
         <li className="wd-assignment-list-item">
-          {/* Complete On Your Own */}
+          <Link
+            href="/Courses/1234/Assignments/234"
+            className="wd-assignment-link"
+          >
+            A2 - CSS + BOOTSTRAP
+          </Link>
+          <p>
+            Multiple Modules | <b>Not available until</b> May 6 at 12:00 a.m |{" "}
+          </p>
+          <p>
+            <b>Due</b> May 13 at 11:59 p.m | 100pts
+          </p>
+        </li>
+        <li className="wd-assignment-list-item">
+          <Link
+            href="/Courses/1234/Assignments/345"
+            className="wd-assignment-link"
+          >
+            A3 - JAVASCRIPT + REACT
+          </Link>
+          <p>
+            Multiple Modules | <b>Not available until</b> May 6 at 12:00 a.m |{" "}
+          </p>
+          <p>
+            <b>Due</b> May 13 at 11:59 p.m | 100pts
+          </p>
         </li>
       </ul>
     </div>
