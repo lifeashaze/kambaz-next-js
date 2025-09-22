@@ -196,15 +196,12 @@ export default function Lab1() {
             title="The last name"
             id="wd-text-fields-last-name"
           />
-          {/* copy rest of form elements here  */}
         </form>
       </div>
       <h5>Text boxes</h5>
       <label>Biography:</label>
       <br />
-      <textarea id="wd-textarea" cols={30} rows={10}>
-        Test
-      </textarea>
+      <textarea id="wd-textarea" cols={30} rows={10} defaultValue="Test" />
       <h5 id="wd-buttons">Buttons</h5>
       <button
         type="button"
@@ -245,28 +242,24 @@ export default function Lab1() {
       <h5>Select one</h5>
       <label htmlFor="wd-select-one-genre"> Favorite movie genre: </label>
       <br />
-      <select id="wd-select-one-genre">
+      <select id="wd-select-one-genre" defaultValue="SCIFI">
         <option value="COMEDY">Comedy</option>
         <option value="DRAMA">Drama</option>
-        <option selected value="SCIFI">
-          Science Fiction
-        </option>
+        <option value="SCIFI">Science Fiction</option>
         <option value="FANTASY">Fantasy</option>
       </select>
       <h5>Select many</h5>
       <label htmlFor="wd-select-many-genre"> Favorite movie genres: </label>
       <br />
-      <select multiple id="wd-select-many-genre">
-        <option value="COMEDY" selected>
-          {" "}
-          Comedy{" "}
-        </option>
-        <option value="DRAMA"> Drama </option>
-        <option value="SCIFI" selected>
-          {" "}
-          Science Fiction{" "}
-        </option>
-        <option value="FANTASY"> Fantasy </option>
+      <select
+        multiple
+        id="wd-select-many-genre"
+        defaultValue={["COMEDY", "SCIFI"]}
+      >
+        <option value="COMEDY">Comedy</option>
+        <option value="DRAMA">Drama</option>
+        <option value="SCIFI">Science Fiction</option>
+        <option value="FANTASY">Fantasy</option>
       </select>
       <h4>Other HTML field types</h4>
       <label htmlFor="wd-text-fields-email"> Email: </label>
@@ -298,7 +291,6 @@ export default function Lab1() {
       <br />
       <h4>Anchor tag</h4>
       <p>
-        {" "}
         Please&nbsp;
         <a href="https://www.lipsum.com" id="wd-lipsum">
           click here&nbsp;

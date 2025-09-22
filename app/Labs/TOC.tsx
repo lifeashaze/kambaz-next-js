@@ -3,8 +3,11 @@ export default function TOC() {
   return (
     <ul>
       <li>
-        <Link href="/Labs" id="wd-lab1-link">
-          Home{" "}
+        <Link href="/">Home</Link>
+      </li>
+      <li>
+        <Link href="/Labs" id="wd-home-link">
+          Labs Home{" "}
         </Link>
       </li>
       <li>
@@ -23,8 +26,16 @@ export default function TOC() {
         </Link>
       </li>
       <li>
-        <Link href="/Dashboard" id="wd-lab3-link">
+        <Link href="/Dashboard" id="wd-kambaz-link">
           Kambaz
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="https://github.com/lifeashaze/kambaz-next-js"
+          id="wd-github-repo-link"
+        >
+          GitHub Repo
         </Link>
       </li>
     </ul>
