@@ -40,13 +40,25 @@ export default function Lab1() {
       <div id="wd-lists">
         <h4>List Tags</h4>
         <h5>Ordered List Tag</h5>
-        How to make pancakes: 1. Mix dry ingredients. 2. Add wet ingredients. 3.
-        Stir to combine. 4. Heat a skillet or griddle. 5. Pour batter onto the
-        skillet. 6. Cook until bubbly on top. 7. Flip and cook the other side.
-        8. Serve and enjoy!
+        <p>How to make pancakes:</p>
+        <ol>
+          <li>Mix dry ingredients.</li>
+          <li>Add wet ingredients.</li>
+          <li>Stir to combine.</li>
+          <li>Heat a skillet or griddle.</li>
+          <li>Pour batter onto the skillet. </li>
+          <li>Cook until bubbly on top.</li>
+          <li>Flip and cook the other side.</li>
+          <li>Serve and enjoy!</li>
+        </ol>
       </div>
-      My favorite recipe:
-      <ol id="wd-your-favorite-recipe">{/* complete on your own */}</ol>
+      <p>My favorite recipe: Black Coffee</p>
+      <ol id="wd-your-favorite-recipe">
+        <li>Heat water.</li>
+        <li>Add coffee powder to a cup.</li>
+        <li>Add the heated water to the cup.</li>
+        <li>Stir and enjoy!</li>
+      </ol>
       <h5>Unordered List Tag</h5>
       My favorite books (in no particular order)
       <ul id="wd-my-books">
@@ -56,8 +68,15 @@ export default function Lab1() {
         <li>Red Mars</li>
         <li>The Forever War</li>
       </ul>
-      Your favorite books (in no particular order)
-      <ul id="wd-your-books">{/* complete on your own */}</ul>
+      <p>Your favorite books (in no particular order)</p>
+      <ul id="wd-your-books">
+        <li>The Silent Patient</li>
+        <li>The Woman in the window</li>
+        <li>The Girl with the dragon tattoo.</li>
+        <li>Metamorphosis</li>
+        <li>Throne of Glass</li>
+        <li>The Last Wish</li>
+      </ul>
       <div id="wd-tables">
         <h4>Table Tag</h4>
         <table border={1} width="100%">
@@ -73,16 +92,63 @@ export default function Lab1() {
             <tr>
               <td>Q1</td>
               <td>HTML</td>
-              <td>2/3/21</td>
+              <td>09/15/2025</td>
               <td>85</td>
             </tr>
             <tr>
               <td>Q2</td>
               <td>CSS</td>
-              <td>2/10/21</td>
+              <td>09/22/2025</td>
               <td>90</td>
             </tr>
-            <tr> ... </tr>
+            <tr>
+              <td>Q3</td>
+              <td>Javascript</td>
+              <td>09/29/2025</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <td>Q4</td>
+              <td>Nodejs</td>
+              <td>10/05/2025</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <td>Q5</td>
+              <td>React</td>
+              <td>10/12/2025</td>
+              <td>92</td>
+            </tr>
+            <tr>
+              <td>Q6</td>
+              <td>Express</td>
+              <td>10/19/2025</td>
+              <td>88</td>
+            </tr>
+            <tr>
+              <td>Q7</td>
+              <td>MongoDB</td>
+              <td>10/26/2025</td>
+              <td>93</td>
+            </tr>
+            <tr>
+              <td>Q8</td>
+              <td>SQL</td>
+              <td>11/02/2025</td>
+              <td>89</td>
+            </tr>
+            <tr>
+              <td>Q9</td>
+              <td>APIs</td>
+              <td>11/09/2025</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <td>Q10</td>
+              <td>TypeScript</td>
+              <td>11/16/2025</td>
+              <td>91</td>
+            </tr>
           </tbody>
           <tfoot>
             <tr>
@@ -231,11 +297,14 @@ export default function Lab1() {
       <input type="date" defaultValue="2000-01-21" id="wd-text-fields-dob" />
       <br />
       <h4>Anchor tag</h4>
-      Please
-      <a href="https://www.lipsum.com" id="wd-lipsum">
-        click here
-      </a>
-      to get dummy text
+      <p>
+        {" "}
+        Please&nbsp;
+        <a href="https://www.lipsum.com" id="wd-lipsum">
+          click here&nbsp;
+        </a>
+        to get dummy text
+      </p>
       <br />
     </div>
   );
