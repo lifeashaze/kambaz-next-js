@@ -1,134 +1,134 @@
 # Assignment Checklist
 
 ## Deployment
-- [ ] Deployed to Vercel
+- [x] Deployed to Vercel
 
 ## Identification
 - [ ] Can easily identify whose assignment this is
 - [ ] Link to GitHub
 
 ## Navigation
-- [ ] Can navigate to Labs easily
+- [x] Can navigate to Labs easily
 
 ## Labs
 ### Headings & Paragraphs
-- [ ] Lab - Heading Tags
-- [ ] Lab - Paragraph Tag
+- [x] Lab - Heading Tags
+- [x] Lab - Paragraph Tag
 
 ### Lists
-- [ ] Lab - Lists - Ordered List Elements
-- [ ] Lab - Lists - My favorite recipe
-- [ ] Lab - Lists - Unordered List Elements
-- [ ] Lab - Lists - Your favorite books
+- [x] Lab - Lists - Ordered List Elements
+- [x] Lab - Lists - My favorite recipe
+- [x] Lab - Lists - Unordered List Elements
+- [x] Lab - Lists - Your favorite books
 
 ### Tables
-- [ ] Lab - Table Tags Q3–Q10 (own dates & scores)
+- [x] Lab - Table Tags Q3–Q10 (own dates & scores)
 
 ### Images
-- [ ] Lab - Images - Starship image
-- [ ] Lab - Images - Teslabot image
+- [x] Lab - Images - Starship image
+- [x] Lab - Images - Teslabot image
 
 ### Forms
-- [ ] Lab - Forms - Username
-- [ ] Lab - Forms - Password
-- [ ] Lab - Forms - First Name
-- [ ] Lab - Forms - Last Name
-- [ ] Lab - Forms - Textareas
-- [ ] Lab - Forms - Comedy radio
-- [ ] Lab - Forms - Drama radio
-- [ ] Lab - Forms - SciFi radio
-- [ ] Lab - Forms - Fantasy radio
-- [ ] Lab - Forms - Comedy checkbox
-- [ ] Lab - Forms - Drama checkbox
-- [ ] Lab - Forms - SciFi checkbox
-- [ ] Lab - Forms - Fantasy checkbox
-- [ ] Lab - Forms - Select one option dropdown
-- [ ] Lab - Forms - Select many options
-- [ ] Lab - Forms - Email
-- [ ] Lab - Forms - Salary
-- [ ] Lab - Forms - Rating slider
-- [ ] Lab - Forms - DOB date picker
+- [x] Lab - Forms - Username
+- [x] Lab - Forms - Password
+- [x] Lab - Forms - First Name
+- [x] Lab - Forms - Last Name
+- [x] Lab - Forms - Textareas
+- [x] Lab - Forms - Comedy radio
+- [x] Lab - Forms - Drama radio
+- [x] Lab - Forms - SciFi radio
+- [x] Lab - Forms - Fantasy radio
+- [x] Lab - Forms - Comedy checkbox
+- [x] Lab - Forms - Drama checkbox
+- [x] Lab - Forms - SciFi checkbox
+- [x] Lab - Forms - Fantasy checkbox
+- [x] Lab - Forms - Select one option dropdown
+- [x] Lab - Forms - Select many options
+- [x] Lab - Forms - Email
+- [x] Lab - Forms - Salary
+- [x] Lab - Forms - Rating slider
+- [x] Lab - Forms - DOB date picker
 
 ### Links & Navigation
-- [ ] Lab - Anchor Tag
-- [ ] Lab - Implementing Navigation in Single Page Applications
+- [x] Lab - Anchor Tag
+- [x] Lab - Implementing Navigation in Single Page Applications
 
 ---
 
 ## Kambaz Application
 
 ### Account - Signin
-- [ ] Username field (type text)
-- [ ] Password field (type password)
-- [ ] Some default values (not necessarily provided ones)
-- [ ] Clicking **Signin** navigates to Profile/Dashboard
-- [ ] Clicking **Signup** navigates to Signup Screen
+- [x] Username field (type text)
+- [x] Password field (type password)
+- [x] Some default values (not necessarily provided ones)
+- [x] Clicking **Signin** navigates to Profile/Dashboard
+- [x] Clicking **Signup** navigates to Signup Screen
 
 ### Account - Profile
-- [ ] Username, first name, last name fields (type text)
-- [ ] Password field (type password)
-- [ ] Date of birth field (type date)
-- [ ] Email input field (type email)
-- [ ] Role dropdown with 4 distinct roles
-- [ ] Some default values
-- [ ] Clicking **Signout** navigates to Signin Screen
+- [x] Username, first name, last name fields (type text)
+- [x] Password field (type password)
+- [x] Date of birth field (type date)
+- [x] Email input field (type email)
+- [x] Role dropdown with 4 distinct roles
+- [x] Some default values
+- [x] Clicking **Signout** navigates to Signin Screen
 
 ### Account - Signup
-- [ ] Username field (type text)
-- [ ] Password field (type password)
-- [ ] Verify Password field (type password)
-- [ ] Some default values
-- [ ] Clicking **Signin** navigates to Signin Screen
-- [ ] Clicking **Signup** navigates to Profile Screen
+- [x] Username field (type text)
+- [x] Password field (type password)
+- [x] Verify Password field (type password)
+- [x] Some default values
+- [x] Clicking **Signin** navigates to Signin Screen
+- [x] Clicking **Signup** navigates to Profile Screen
 
 ### Account - Navigation
-- [ ] Sidebar appears on left of Account screens
-- [ ] Clicking **Signin**, **Signup**, **Profile** navigates correctly
-- [ ] Signin screen is default when navigating to Kanbas
+- [x] Sidebar appears on left of Account screens
+- [x] Clicking **Signin**, **Signup**, **Profile** navigates correctly
+- [x] Signin screen is default when navigating to Kanbas
 
 ---
 
 ## Kambaz - Dashboard
-- [ ] Dashboard title
-- [ ] Published Courses subtitle
-- [ ] List of courses
-- [ ] At least 3 courses
-- [ ] Each course is a link
-- [ ] Each course has a title
+- [x] Dashboard title
+- [x] Published Courses subtitle
+- [x] List of courses
+- [x] At least 3 courses
+- [x] Each course is a link
+- [x] Each course has a title
 
 ---
 
 ## Kambaz - Navigation Sidebar
-- [ ] Link to NEU
-- [ ] Link to Account
-- [ ] Link to Dashboard
-- [ ] Link to Course
-- [ ] Link to Calendar
-- [ ] Link to Inbox
-- [ ] Link to Labs
+- [x] Link to NEU
+- [x] Link to Account
+- [x] Link to Dashboard
+- [x] Link to Course
+- [x] Link to Calendar
+- [x] Link to Inbox
+- [x] Link to Labs
 
 ---
 
 ## Kambaz - Courses Navigation
-- [ ] Home link → navigates to Home
-- [ ] Modules link → navigates to Modules
-- [ ] Piazza link → displays Piazza
-- [ ] Zoom link → displays Zoom
-- [ ] Quizzes link → displays Quizzes
-- [ ] Assignments link → navigates to Assignments
-- [ ] Grades link → displays Grades
+- [x] Home link → navigates to Home
+- [x] Modules link → navigates to Modules
+- [x] Piazza link → displays Piazza
+- [x] Zoom link → displays Zoom
+- [x] Quizzes link → displays Quizzes
+- [x] Assignments link → navigates to Assignments
+- [x] Grades link → displays Grades
 
 ---
 
 ## Kambaz - Modules
-- [ ] Show at least 2 modules
-- [ ] Each module has a title
-- [ ] Show at least 2 lessons
+- [x] Show at least 2 modules
+- [x] Each module has a title
+- [x] Show at least 2 lessons
 
 ---
 
 ## Kambaz - Courses - Home
-- [ ] Home screen
+- [x] Home screen
 - [ ] Course Status component
 - [ ] Buttons at the top
 - [ ] At least 2 modules
@@ -137,10 +137,10 @@
 ---
 
 ## Kambaz - Assignments
-- [ ] Can navigate here by clicking Assignments link
-- [ ] Can navigate to other screens
-- [ ] Input field at the top with placeholder
-- [ ] Buttons as shown
+- [x] Can navigate here by clicking Assignments link
+- [x] Can navigate to other screens
+- [x] Input field at the top with placeholder
+- [x] Buttons as shown
 - [ ] Headings/sections: Assignments, Quizzes, Exams, Project
 - [ ] Assignment links as shown
 
