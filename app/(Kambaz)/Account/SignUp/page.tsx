@@ -6,7 +6,7 @@ export default function Signup() {
       <input
         placeholder="username"
         className="wd-username"
-        defaultValue="username"
+        defaultValue="abhishek-b"
       />
       <br />
       <input
