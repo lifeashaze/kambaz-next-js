@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       <h2>
-        Access Kambaz <a href="/Dashboard">Here</a>
+        Access Kambaz <a href="/Account/SignIn">Here</a>
       </h2>
 
       <h2>
