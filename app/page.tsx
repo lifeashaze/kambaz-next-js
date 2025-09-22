@@ -7,6 +7,7 @@ export default function Home() {
       <div>
         <ul>
           <li>Name: Abhishek Bhagawati</li>
+          <li>Section: 04</li>
           <li>MS Computer Science</li>
           <li>NUID: 002017669</li>
           <li>
@@ -22,7 +23,9 @@ export default function Home() {
         </ul>
       </div>
 
-      <h2>Access Kambaz <a href="/Labs">Here</a></h2>
+      <h2>
+        Access Kambaz <a href="/Labs">Here</a>
+      </h2>
     </div>
   );
 }
