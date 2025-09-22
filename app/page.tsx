@@ -6,7 +6,7 @@ export default function Home() {
       <h3>Details:</h3>
       <div>
         <ul>
-          <li>Name: Abhishek Bhagawati</li>
+          <li>Name: Abhishek Malleshappa Bhagawati</li>
           <li>Section: 04</li>
           <li>MS Computer Science</li>
           <li>NUID: 002017669</li>
