@@ -15,13 +15,12 @@ export default function Dashboard() {
               alt="react-js-boilerplate-image"
             />
             <div>
-              <h5> CS1234 React JS </h5>
-              <p className="wd-dashboard-course-title">
-                Full Stack software developer
-              </p>
+              <h5> CS1234 - React JS </h5>
+              <p className="wd-dashboard-course-title">Course on ReactJS</p>
               <button> Go </button>
             </div>
           </Link>
+
           <Link href="/Courses/2345" className="wd-dashboard-course-link">
             <Image
               src="/mongodb.png"
@@ -31,12 +30,11 @@ export default function Dashboard() {
             />
             <div>
               <h5> CS2345 - MongoDB </h5>
-              <p className="wd-dashboard-course-title">
-                Full Stack software developer
-              </p>
+              <p className="wd-dashboard-course-title">Course on MongoDB</p>
               <button> Go </button>
             </div>
           </Link>
+
           <Link href="/Courses/3456" className="wd-dashboard-course-link">
             <Image
               src="/vercel.webp"
@@ -45,10 +43,22 @@ export default function Dashboard() {
               alt="vercel-boilerplate-image"
             />
             <div>
-              <h5> CS3456 Vercel </h5>
-              <p className="wd-dashboard-course-title">
-                Full Stack software developer
-              </p>
+              <h5> CS3456 - Vercel </h5>
+              <p className="wd-dashboard-course-title">Course on MongoDB </p>
+              <button> Go </button>
+            </div>
+          </Link>
+
+          <Link href="/Courses/4567" className="wd-dashboard-course-link">
+            <Image
+              src="/cloudflare.jpg"
+              width={200}
+              height={150}
+              alt="cloudflare-boilerplate-image"
+            />
+            <div>
+              <h5> CS4567 - Cloudflare </h5>
+              <p className="wd-dashboard-course-title">Course on Cloudflare</p>
               <button> Go </button>
             </div>
           </Link>
