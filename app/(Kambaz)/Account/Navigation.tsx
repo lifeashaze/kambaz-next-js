@@ -7,14 +7,14 @@ export default function AccountNavigation() {
         id="wd-course-home-link"
         className="list-group-item active border-0"
       >
-        Sign Up
+        Signup
       </Link>
       <Link
         href="/Account/SignIn"
         id="wd-course-modules-link"
         className="list-group-item text-danger border-0"
       >
-        Sign In
+        Signin
       </Link>
       <Link
         href="/Account/Profile"
