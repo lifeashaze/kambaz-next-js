@@ -51,6 +51,14 @@ export default function CourseNavigation() {
         Quizzes{" "}
       </Link>
       <Link
+        href="/Courses/1234/Grades"
+        id="wd-course-quizzes-link"
+        className="list-group-item text-danger border-0"
+      >
+        {" "}
+        Grades{" "}
+      </Link>
+      <Link
         href="/Courses/1234/People/Table"
         id="wd-course-people-link"
         className="list-group-item text-danger border-0"
