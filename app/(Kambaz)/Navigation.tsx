@@ -1,10 +1,12 @@
 import { AiOutlineDashboard } from "react-icons/ai";
 import { IoCalendarOutline } from "react-icons/io5";
 import { LiaBookSolid, LiaCogSolid } from "react-icons/lia";
-import { FaInbox, FaRegCircleUser } from "react-icons/fa6";
+import { FaComputer, FaInbox, FaRegCircleUser } from "react-icons/fa6";
 import { ListGroup, ListGroupItem } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
+import { BiBook, BiCalendar } from "react-icons/bi";
+import { PiPrinter } from "react-icons/pi";
 export default function KambazNavigation() {
   return (
     <ListGroup
@@ -21,7 +23,9 @@ export default function KambazNavigation() {
       >
         <Image src="/neu.png" width={90} height={90} alt={""} />
       </ListGroupItem>
+
       <br />
+
       <ListGroupItem className="border-0 bg-black text-center">
         <Link
           href="/Account"
@@ -33,7 +37,9 @@ export default function KambazNavigation() {
           Account
         </Link>
       </ListGroupItem>
+
       <br />
+
       <ListGroupItem className="border-0 bg-white text-center">
         <Link
           href="/Dashboard"
@@ -45,8 +51,64 @@ export default function KambazNavigation() {
           Dashboard
         </Link>
       </ListGroupItem>
+
       <br />
-      {/* complete styling the rest of the links */}
+
+      <ListGroupItem className="border-0 bg-black text-center">
+        <Link
+          href="/Courses/1234"
+          id="wd-courses-link"
+          className="text-white text-decoration-none"
+        >
+          <BiBook className="fs-1 text-danger" />
+          <br />
+          Courses
+        </Link>
+      </ListGroupItem>
+
+      <br />
+
+      <ListGroupItem className="border-0 bg-black text-center">
+        <Link
+          href="/Calendar"
+          id="wd-calendar-link"
+          className="text-white text-decoration-none"
+        >
+          <BiCalendar className="fs-1 text-danger" />
+          <br />
+          Calendar
+        </Link>
+      </ListGroupItem>
+
+      <br />
+
+      <ListGroupItem className="border-0 bg-black text-center">
+        <Link
+          href="/Inbox"
+          id="wd-inbox-link"
+          className="text-white text-decoration-none"
+        >
+          <PiPrinter className="fs-1 text-danger" />
+          <br />
+          Inbox
+        </Link>
+      </ListGroupItem>
+
+      <br />
+
+      <ListGroupItem className="border-0 bg-black text-center">
+        <Link
+          href="/Labs"
+          id="wd-courses-link"
+          className="text-white text-decoration-none"
+        >
+          <FaComputer className="fs-1 text-danger" />
+          <br />
+          Labs
+        </Link>
+      </ListGroupItem>
+
+      <br />
     </ListGroup>
   );
 }
