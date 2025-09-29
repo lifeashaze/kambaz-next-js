@@ -25,7 +25,7 @@ export default function Dashboard() {
               >
                 <CardImg
                   variant="top"
-                  src="/images/reactjs.jpg"
+                  src="react-js.png"
                   width="100%"
                   height={160}
                 />
