@@ -158,15 +158,15 @@
 - [x] At least 3 users (3/2/1/0)
 
 ## Kanbas - Assignments
-- [ ] Buttons float right (3/2/1/0)
-- [ ] Search field with placeholder + icon (3/2/1/0)
-- [ ] React icons included (3/2/1/0)
-- [ ] Group & Assignment buttons styled + icons (3/2/1/0)
-- [ ] White space with Bootstrap margin/padding (3/2/1/0)
-- [ ] Left border green (3/2/1/0)
-- [ ] Assignment titles (A1, A2, …) styled (3/2/1/0)
-- [ ] Subtext (dates/points) rendered (3/2/1/0)
-- [ ] Layout generally correct (3/2/1/0)
+- [x] Buttons float right (3/2/1/0)
+- [x] Search field with placeholder + icon (3/2/1/0)
+- [x] React icons included (3/2/1/0)
+- [x] Group & Assignment buttons styled + icons (3/2/1/0)
+- [x] White space with Bootstrap margin/padding (3/2/1/0)
+- [] Left border green (3/2/1/0)
+- [x] Assignment titles (A1, A2, …) styled (3/2/1/0)
+- [x] Subtext (dates/points) rendered (3/2/1/0)
+- [x] Layout generally correct (3/2/1/0)
 
 ## Kanbas - Assignments Editor
 - [ ] Assignments link not selected in sidebar (3/2/1/0)
