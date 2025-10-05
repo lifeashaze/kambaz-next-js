@@ -1,40 +1,58 @@
 import Link from "next/link";
+import { FormControl } from "react-bootstrap";
 export default function Profile() {
   return (
     <div id="wd-profile-screen">
       <h3>Profile</h3>
-      <input
+      <FormControl
         defaultValue="alice"
         placeholder="username"
-        className="wd-username"
+        className="mb-2"
       />
-      <br />
-      <input
+      <FormControl
         defaultValue="123"
         placeholder="password"
         type="password"
-        className="wd-password"
+        className="mb-2"
       />
-      <br />
-      <input defaultValue="Alice" placeholder="First Name" id="wd-firstname" />
-      <br />
-      <input
+      <FormControl
+        defaultValue="123"
+        placeholder="verify password"
+        type="password"
+        className="mb-2"
+      />
+      <FormControl
+        defaultValue="Alice"
+        placeholder="first name"
+        className="mb-2"
+      />
+      <FormControl
         defaultValue="Wonderland"
-        placeholder="Last Name"
-        id="wd-lastname"
+        placeholder="last name"
+        className="mb-2"
       />
-      <br />
-      <input defaultValue="2000-01-01" type="date" id="wd-dob" />
-      <br />
-      <input defaultValue="alice@wonderland" type="email" id="wd-email" />
-      <br />
-      <select defaultValue="FACULTY" id="wd-role">
+
+      <FormControl
+        defaultValue="alice@wonderland"
+        placeholder="email"
+        type="email"
+        className="mb-2"
+      />
+      <FormControl defaultValue="2000-01-01" type="date" className="mb-2" />
+
+      <FormControl as="select" defaultValue="USER" className="mb-2">
         <option value="USER">User</option> <option value="ADMIN">Admin</option>
         <option value="FACULTY">Faculty</option>{" "}
         <option value="STUDENT">Student</option>
-      </select>
-      <br />
-      <Link href="/Account/SignIn"> Sign out </Link>
+      </FormControl>
+
+            <Link
+        id="wd-signin-btn"
+        href="/Account/Profile"
+        className="btn btn-danger w-100 mb-2"
+      >
+        Signout{" "}
+      </Link>
     </div>
   );
 }
