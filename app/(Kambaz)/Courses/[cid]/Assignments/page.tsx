@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
 import { FormControl, ListGroup, ListGroupItem } from "react-bootstrap";
-import { BsGripVertical, BsSearch, BsThreeDotsVertical } from "react-icons/bs";
+import { BsGripVertical, BsSearch } from "react-icons/bs";
 import { LuNotebookPen } from "react-icons/lu";
 import { IoEllipsisVertical } from "react-icons/io5";
 import { FaPlus } from "react-icons/fa6";
@@ -13,10 +13,10 @@ export default function Assignments() {
       <div className="d-flex justify-content-between mb-3">
         <div className="position-relative">
           <BsSearch className="position-absolute mt-3 ms-3 fs-6 text-secondary" />
-          <FormControl 
-            type="text" 
-            placeholder="Search..." 
-            className="ps-5 pe-3" 
+          <FormControl
+            type="text"
+            placeholder="Search..."
+            className="ps-5 pe-3"
             style={{ width: "300px" }}
           />
         </div>
@@ -38,7 +38,9 @@ export default function Assignments() {
               <span className="fw-bold">ASSIGNMENTS</span>
             </div>
             <div className="d-flex align-items-center gap-2">
-              <span className="border rounded-pill px-3 py-1 small">40% of Total</span>
+              <span className="border rounded-pill px-3 py-1 small">
+                40% of Total
+              </span>
               <FaPlus />
               <IoEllipsisVertical />
             </div>
@@ -49,11 +51,15 @@ export default function Assignments() {
               <BsGripVertical className="me-2 fs-4 text-secondary" />
               <LuNotebookPen className="me-3 fs-4 text-success" />
               <div className="flex-grow-1">
-                <Link href="/Courses/1234/Assignments/123" className="fw-bold text-dark text-decoration-none">
+                <Link
+                  href="/Courses/1234/Assignments/123"
+                  className="fw-bold text-dark text-decoration-none"
+                >
                   A1
                 </Link>
                 <div className="small text-danger">
-                  <span className="text-dark">Multiple Modules</span> | Not available until May 6 at 12:00am |
+                  <span className="text-dark">Multiple Modules</span> | Not
+                  available until May 6 at 12:00am |
                 </div>
                 <div className="small text-secondary">
                   Due May 13 at 11:59pm | 100 pts
@@ -66,11 +72,15 @@ export default function Assignments() {
               <BsGripVertical className="me-2 fs-4 text-secondary" />
               <LuNotebookPen className="me-3 fs-4 text-success" />
               <div className="flex-grow-1">
-                <Link href="/Courses/1234/Assignments/123" className="fw-bold text-dark text-decoration-none">
+                <Link
+                  href="/Courses/1234/Assignments/123"
+                  className="fw-bold text-dark text-decoration-none"
+                >
                   A2
                 </Link>
                 <div className="small text-danger">
-                  <span className="text-dark">Multiple Modules</span> | Not available until May 13 at 12:00am |
+                  <span className="text-dark">Multiple Modules</span> | Not
+                  available until May 13 at 12:00am |
                 </div>
                 <div className="small text-secondary">
                   Due May 20 at 11:59pm | 100 pts
@@ -83,11 +93,15 @@ export default function Assignments() {
               <BsGripVertical className="me-2 fs-4 text-secondary" />
               <LuNotebookPen className="me-3 fs-4 text-success" />
               <div className="flex-grow-1">
-                <Link href="/Courses/1234/Assignments/123" className="fw-bold text-dark text-decoration-none">
+                <Link
+                  href="/Courses/1234/Assignments/123"
+                  className="fw-bold text-dark text-decoration-none"
+                >
                   A3
                 </Link>
                 <div className="small text-danger">
-                  <span className="text-dark">Multiple Modules</span> | Not available until May 20 at 12:00am |
+                  <span className="text-dark">Multiple Modules</span> | Not
+                  available until May 20 at 12:00am |
                 </div>
                 <div className="small text-secondary">
                   Due May 27 at 11:59pm | 100 pts
