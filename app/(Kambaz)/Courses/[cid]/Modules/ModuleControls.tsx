@@ -6,6 +6,7 @@ import {
   DropdownToggle,
 } from "react-bootstrap";
 import { FaPlus } from "react-icons/fa6";
+import { MdDoNotDisturbAlt } from "react-icons/md";
 import GreenCheckmark from "./GreenCheckmark";
 export default function ModulesControls() {
   return (
@@ -20,7 +21,12 @@ export default function ModulesControls() {
         Module
       </Button>
       <Dropdown className="float-end me-1">
-        <DropdownToggle variant="secondary" size="lg" id="wd-publish-all-btn">
+        <DropdownToggle
+          variant="light"
+          className="border"
+          size="lg"
+          id="wd-publish-all-btn"
+        >
           <GreenCheckmark /> Publish All
         </DropdownToggle>
         <DropdownMenu>
@@ -34,25 +40,25 @@ export default function ModulesControls() {
             <GreenCheckmark /> Publish modules only
           </DropdownItem>
           <DropdownItem id="wd-unpublish-all-modules-and-items">
-            <GreenCheckmark /> Unpublish all modules and items
+            <MdDoNotDisturbAlt /> Unpublish all modules and items
           </DropdownItem>
           <DropdownItem id="wd-unpublish-modules-only">
-            <GreenCheckmark /> Unpublish modules only
+            <MdDoNotDisturbAlt /> Unpublish modules only
           </DropdownItem>
         </DropdownMenu>
       </Dropdown>
       <Button
-        variant="secondary"
+        variant="light"
         size="lg"
-        className="me-1 float-end"
+        className="me-1 float-end border"
         id="wd-view-progress"
       >
         View Progress
       </Button>
       <Button
-        variant="secondary"
+        variant="light"
         size="lg"
-        className="me-1 float-end"
+        className="me-1 float-end border"
         id="wd-collapse-all"
       >
         Collapse All
