@@ -1,105 +1,105 @@
 # CSS & Bootstrap Labs Rubric Checklist
 
 ## CSS - ID Selectors
-- [ ] White on red paragraph (3/2/1/0)
-- [ ] Black on yellow paragraph (3/2/1/0)
+- [x] White on red paragraph (3/2/1/0)
+- [x] Black on yellow paragraph (3/2/1/0)
 
 ## CSS - Class Selectors
-- [ ] Blue on yellow paragraph (3/2/1/0)
-- [ ] Blue on yellow heading (3/2/1/0)
+- [x] Blue on yellow paragraph (3/2/1/0)
+- [x] Blue on yellow heading (3/2/1/0)
 
 ## CSS - Document Structure
-- [ ] White on red DIV (3/2/1/0)
-- [ ] Blue on yellow small span within the DIV (3/2/1/0)
+- [s] White on red DIV (3/2/1/0)
+- [x] Blue on yellow small span within the DIV (3/2/1/0)
 
 ## CSS - Foreground Color
-- [ ] Blue on white heading (3/2/1/0)
-- [ ] Red on white text (3/2/1/0)
-- [ ] Green on white text (3/2/1/0)
+- [x] Blue on white heading (3/2/1/0)
+- [x] Red on white text (3/2/1/0)
+- [x] Green on white text (3/2/1/0)
 
 ## CSS - Background Color
-- [ ] White on blue heading (3/2/1/0)
-- [ ] Black on red paragraph (3/2/1/0)
-- [ ] White on green span (3/2/1/0)
+- [x] White on blue heading (3/2/1/0)
+- [x] Black on red paragraph (3/2/1/0)
+- [x] White on green span (3/2/1/0)
 
 ## CSS - Borders
-- [ ] Fat red border (3/2/1/0)
-- [ ] Thin blue dashed border (3/2/1/0)
+- [x] Fat red border (3/2/1/0)
+- [x] Thin blue dashed border (3/2/1/0)
 
 ## CSS - Margins
-- [ ] Fat red border, yellow background, big padding (top + left) (3/2/1/0)
-- [ ] Fat blue border, yellow background, big padding (bottom) (3/2/1/0)
-- [ ] Fat yellow border, blue background, big padding (all around) (3/2/1/0)
-- [ ] Fat red border, yellow background, margin bottom (3/2/1/0)
-- [ ] Fat blue border, yellow background, centered (margins both sides) (3/2/1/0)
-- [ ] Fat yellow border, blue background, big margins (all around) (3/2/1/0)
+- [x] Fat red border, yellow background, big padding (top + left) (3/2/1/0)
+- [x] Fat blue border, yellow background, big padding (bottom) (3/2/1/0)
+- [x] Fat yellow border, blue background, big padding (all around) (3/2/1/0)
+- [x] Fat red border, yellow background, margin bottom (3/2/1/0)
+- [x] Fat blue border, yellow background, centered (margins both sides) (3/2/1/0)
+- [x] Fat yellow border, blue background, big margins (all around) (3/2/1/0)
 
 ## CSS - Corners
-- [ ] Rounded top left + right (3/2/1/0)
-- [ ] Rounded bottom left + right (3/2/1/0)
-- [ ] All rounded corners (3/2/1/0)
-- [ ] Rounded except top right (3/2/1/0)
+- [x] Rounded top left + right (3/2/1/0)
+- [x] Rounded bottom left + right (3/2/1/0)
+- [x] All rounded corners (3/2/1/0)
+- [x] Rounded except top right (3/2/1/0)
 
 ## CSS - Dimensions
-- [ ] Yellow DIV longer than tall (3/2/1/0)
-- [ ] Blue DIV taller than wide (3/2/1/0)
-- [ ] Red DIV square (equal height + width) (3/2/1/0)
+- [x] Yellow DIV longer than tall (3/2/1/0)
+- [x] Blue DIV taller than wide (3/2/1/0)
+- [x] Red DIV square (equal height + width) (3/2/1/0)
 
 ## CSS - Position
-- [ ] Relative: Yellow DIV text nudged down + right (3/2/1/0)
-- [ ] Relative: Blue DIV moved up + right (3/2/1/0)
-- [ ] Absolute: Portrait, Landscape, Square rectangles (3/2/1/0)
-- [ ] Fixed: Blue rectangle fixed while scrolling (3/2/1/0)
+- [x] Relative: Yellow DIV text nudged down + right (3/2/1/0)
+- [x] Relative: Blue DIV moved up + right (3/2/1/0)
+- [x] Absolute: Portrait, Landscape, Square rectangles (3/2/1/0)
+- [x] Fixed: Blue rectangle fixed while scrolling (3/2/1/0)
 
 ## CSS - Z Index
-- [ ] Blue Landscape rectangle above others (3/2/1/0)
+- [x] Blue Landscape rectangle above others (3/2/1/0)
 
 ## CSS - Floating
-- [ ] Three rectangles laid out horizontally (3/2/1/0)
-- [ ] Image floats right (3/2/1/0)
+- [x] Three rectangles laid out horizontally (3/2/1/0)
+- [x] Image floats right (3/2/1/0)
 
 ## CSS - Layouts
-- [ ] Grid layout (3/2/1/0)
-- [ ] Flexbox columns 1–3 horizontal (3/2/1/0)
+- [x] Grid layout (3/2/1/0)
+- [x] Flexbox columns 1–3 horizontal (3/2/1/0)
 
 ## CSS - React
-- [ ] React Icons: Any 6 icons displayed (3/2/1/0)
+- [x] React Icons: Any 6 icons displayed (3/2/1/0)
 
 ---
 
 ## Bootstrap - Containers & Grids
-- [ ] Container with thin padding (Lab 2) (3/2/1/0)
-- [ ] Grid layouts: 1/2, 1/3–2/3, side/main (3/2/1/0)
+- [x] Container with thin padding (Lab 2) (3/2/1/0)
+- [x] Grid layouts: 1/2, 1/3–2/3, side/main (3/2/1/0)
 
 ## Bootstrap - Responsive
-- [ ] Columns A–D responsive (3/2/1/0)
-- [ ] Columns 1–12 responsive (3/2/1/0)
-- [ ] Breakpoints visible in black box (3/2/1/0)
+- [x] Columns A–D responsive (3/2/1/0)
+- [x] Columns 1–12 responsive (3/2/1/0)
+- [x] Breakpoints visible in black box (3/2/1/0)
 
 ## Bootstrap - Tables
-- [ ] Quizzes table styled (3/2/1/0)
-- [ ] Responsive table scrollbars (3/2/1/0)
+- [x] Quizzes table styled (3/2/1/0)
+- [x] Responsive table scrollbars (3/2/1/0)
 
 ## Bootstrap - Lists
-- [ ] Favorite movies list styled (3/2/1/0)
-- [ ] Favorite books (links) styled (3/2/1/0)
+- [x] Favorite movies list styled (3/2/1/0)
+- [x] Favorite books (links) styled (3/2/1/0)
 
 ## Bootstrap - Forms
-- [ ] Email + text area styled (3/2/1/0)
-- [ ] Dropdown styled (3/2/1/0)
-- [ ] Switches styled (3/2/1/0)
-- [ ] Sliders styled (3/2/1/0)
-- [ ] Addons styled (3/2/1/0)
-- [ ] Responsive: horizontal wide screen (3/2/1/0)
-- [ ] Responsive: vertical narrow screen (3/2/1/0)
+- [x] Email + text area styled (3/2/1/0)
+- [x] Dropdown styled (3/2/1/0)
+- [x] Switches styled (3/2/1/0)
+- [x] Sliders styled (3/2/1/0)
+- [x] Addons styled (3/2/1/0)
+- [x] Responsive: horizontal wide screen (3/2/1/0)
+- [x] Responsive: vertical narrow screen (3/2/1/0)
 
 ## Bootstrap - Navigation
-- [ ] Tabs styled (3/2/1/0)
-- [ ] Pills: table of content links (3/2/1/0)
-- [ ] Pills: link to git repo (3/2/1/0)
+- [x] Tabs styled (3/2/1/0)
+- [x] Pills: table of content links (3/2/1/0)
+- [x] Pills: link to git repo (3/2/1/0)
 
 ## Bootstrap - Cards
-- [ ] Stacking Starship card styled (3/2/1/0)
+- [x] Stacking Starship card styled (3/2/1/0)
 
 ---
 
@@ -131,7 +131,7 @@
 - [x] Styling generally correct (3/2/1/0)
 
 ## Kanbas - Modules
-- [ ] Buttons: Collapse All, View Progress, + Module (3/2/1/0)
+- [x] Buttons: Collapse All, View Progress, + Module (3/2/1/0)
 - [x] Collapse/View: black on grey (3/2/1/0)
 - [x] + Module: white on red (3/2/1/0)
 - [x] Publish all dropdown (3/2/1/0)
@@ -147,10 +147,10 @@
 ## Kanbas - Home
 - [x] Course status in 4th column (3/2/1/0)
 - [x] Modules in 3rd column (3/2/1/0)
-- [] Wide: 4 columns (3/2/1/0)
+- [x] Wide: 4 columns (3/2/1/0)
 - [x] Narrow: hides course status (3/2/1/0)
 - [x] Narrowest: hides left sidebar (3/2/1/0)
-- [ ] Layout generally correct (3/2/1/0)
+- [x] Layout generally correct (3/2/1/0)
 
 ## Kanbas - People
 - [x] People link shows screen (3/2/1/0)
@@ -163,7 +163,7 @@
 - [x] React icons included (3/2/1/0)
 - [x] Group & Assignment buttons styled + icons (3/2/1/0)
 - [x] White space with Bootstrap margin/padding (3/2/1/0)
-- [] Left border green (3/2/1/0)
+- [x] Left border green (3/2/1/0)
 - [x] Assignment titles (A1, A2, …) styled (3/2/1/0)
 - [x] Subtext (dates/points) rendered (3/2/1/0)
 - [x] Layout generally correct (3/2/1/0)
