@@ -32,6 +32,9 @@ body * {
   border-left: 5px solid green !important;
 }
 
+.icon{
+  font-size: 1.75rem;
+}
 @media (min-width: 768px) {
   #wd-kambaz .wd-main-content-offset {
     padding-left: 140px !important;
