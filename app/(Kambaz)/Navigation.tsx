@@ -1,5 +1,5 @@
 import { AiOutlineDashboard } from "react-icons/ai";
-import { FaComputer, FaRegCircleUser } from "react-icons/fa6";
+import { FaComputer, FaGithub, FaRegCircleUser } from "react-icons/fa6";
 import { ListGroup, ListGroupItem } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
@@ -20,7 +20,12 @@ export default function KambazNavigation() {
         href="https://www.northeastern.edu/"
         id="wd-neu-link"
       >
-        <Image src="/neu.png" width={90} height={90} alt="Northeastern University" />
+        <Image
+          src="/neu.png"
+          width={90}
+          height={90}
+          alt="Northeastern University"
+        />
       </ListGroupItem>
 
       <ListGroupItem className="border-0 bg-black text-center">
@@ -86,6 +91,17 @@ export default function KambazNavigation() {
         >
           <FaComputer className="fs-1 text-danger" />
           <span>Labs</span>
+        </Link>
+      </ListGroupItem>
+
+      <ListGroupItem className="border-0 bg-black text-center">
+        <Link
+          href="https://github.com/lifeashaze/kambaz-next-js/tree/a2"
+          id="wd-labs-link"
+          className="text-white text-decoration-none d-flex flex-column align-items-center gap-1"
+        >
+          <FaGithub className="fs-1 text-danger" />
+          <span>GitHub Repo</span>
         </Link>
       </ListGroupItem>
     </ListGroup>

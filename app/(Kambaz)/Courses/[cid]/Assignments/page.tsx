@@ -47,7 +47,7 @@ export default function Assignments() {
           </div>
 
           <ListGroup className="rounded-0">
-            <ListGroupItem className="p-3 d-flex align-items-center border-start-0 border-end-0">
+            <ListGroupItem className="p-3 d-flex align-items-center border-start-0 border-end-0 wd-assignment-item">
               <BsGripVertical className="me-2 fs-4 text-secondary" />
               <LuNotebookPen className="me-3 fs-4 text-success" />
               <div className="flex-grow-1">
@@ -57,9 +57,9 @@ export default function Assignments() {
                 >
                   A1
                 </Link>
-                <div className="small text-danger">
-                  <span className="text-dark">Multiple Modules</span> | Not
-                  available until May 6 at 12:00am |
+                <div className="small">
+                  <span className="text-danger">Multiple Module </span>
+                  <span className="fw-bold"> | Not available until </span> <span> May 6 at 12:00am </span> | 
                 </div>
                 <div className="small text-secondary">
                   Due May 13 at 11:59pm | 100 pts
@@ -68,7 +68,7 @@ export default function Assignments() {
               <LessonControlButtons />
             </ListGroupItem>
 
-            <ListGroupItem className="p-3 d-flex align-items-center border-start-0 border-end-0">
+            <ListGroupItem className="p-3 d-flex align-items-center border-start-0 border-end-0 wd-assignment-item">
               <BsGripVertical className="me-2 fs-4 text-secondary" />
               <LuNotebookPen className="me-3 fs-4 text-success" />
               <div className="flex-grow-1">
@@ -78,9 +78,9 @@ export default function Assignments() {
                 >
                   A2
                 </Link>
-                <div className="small text-danger">
-                  <span className="text-dark">Multiple Modules</span> | Not
-                  available until May 13 at 12:00am |
+                <div className="small">
+                  <span className="text-danger">Multiple Module </span>
+                  <span className="fw-bold"> | Not available until </span> <span> May 13 at 12:00am </span> | 
                 </div>
                 <div className="small text-secondary">
                   Due May 20 at 11:59pm | 100 pts
@@ -89,7 +89,7 @@ export default function Assignments() {
               <LessonControlButtons />
             </ListGroupItem>
 
-            <ListGroupItem className="p-3 d-flex align-items-center border-start-0 border-end-0">
+            <ListGroupItem className="p-3 d-flex align-items-center border-start-0 border-end-0 wd-assignment-item  ">
               <BsGripVertical className="me-2 fs-4 text-secondary" />
               <LuNotebookPen className="me-3 fs-4 text-success" />
               <div className="flex-grow-1">
@@ -99,9 +99,9 @@ export default function Assignments() {
                 >
                   A3
                 </Link>
-                <div className="small text-danger">
-                  <span className="text-dark">Multiple Modules</span> | Not
-                  available until May 20 at 12:00am |
+                <div className="small">
+                  <span className="text-danger">Multiple Module </span>
+                  <span className="fw-bold"> | Not available until </span> <span> May 20 at 12:00am </span> | 
                 </div>
                 <div className="small text-secondary">
                   Due May 27 at 11:59pm | 100 pts

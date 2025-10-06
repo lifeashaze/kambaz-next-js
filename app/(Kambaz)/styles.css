@@ -28,6 +28,9 @@ body * {
 .wd-lesson {
   border-left: 3px solid green !important;
 }
+.wd-assignment-item {
+  border-left: 5px solid green !important;
+}
 
 @media (min-width: 768px) {
   #wd-kambaz .wd-main-content-offset {
