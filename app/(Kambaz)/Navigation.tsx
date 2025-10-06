@@ -1,110 +1,70 @@
+"use client";
 import { AiOutlineDashboard } from "react-icons/ai";
-import { FaComputer, FaGithub, FaRegCircleUser } from "react-icons/fa6";
-import { ListGroup, ListGroupItem } from "react-bootstrap";
+import { IoCalendarOutline } from "react-icons/io5";
+import { LiaBookSolid, LiaCogSolid } from "react-icons/lia";
+import { FaInbox, FaRegCircleUser } from "react-icons/fa6";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
-import { BiBook, BiCalendar } from "react-icons/bi";
-import { PiPrinter } from "react-icons/pi";
-
-
+import { ListGroup, ListGroupItem } from "react-bootstrap";
 export default function KambazNavigation() {
+  const pathname = usePathname();
+  const links = [
+    { label: "Dashboard", path: "/Dashboard", icon: AiOutlineDashboard },
+    { label: "Courses", path: "/Dashboard", icon: LiaBookSolid },
+    { label: "Calendar", path: "/Calendar", icon: IoCalendarOutline },
+    { label: "Inbox", path: "/Inbox", icon: FaInbox },
+    { label: "Labs", path: "/Labs", icon: LiaCogSolid },
+  ];
   return (
     <ListGroup
-      className="rounded-0 position-fixed bottom-0 top-0 d-none d-md-flex flex-column align-items-center justify-content-start bg-black overflow-auto"
-      style={{ width: 120 }}
       id="wd-kambaz-navigation"
+      style={{ width: 120 }}
+      className="rounded-0 position-fixed bottom-0 top-0 d-none d-md-block bg-black z-2"
     >
       <ListGroupItem
-        className="bg-black border-0 text-center"
-        as="a"
+        id="wd-neu-link"
         target="_blank"
         href="https://www.northeastern.edu/"
-        id="wd-neu-link"
+        action
+        className="bg-black border-0 text-center"
       >
-        <Image
-          src="/neu.png"
-          width={60}
-          height={60}
-          alt="Northeastern University"
+        <img src="/neu.png" width="75px" />
+      </ListGroupItem>
+      <ListGroupItem
+        as={Link}
+        href="/Account"
+        className={`text-center border-0 bg-black
+            ${
+              pathname.includes("Account")
+                ? "bg-white text-danger"
+                : "bg-black text-white"
+            }`}
+      >
+        <FaRegCircleUser
+          className={`fs-1 ${
+            pathname.includes("Account") ? "text-danger" : "text-white"
+          }`}
         />
+        <br />
+        Account
       </ListGroupItem>
-
-      <ListGroupItem className="border-0 bg-black text-center">
-        <Link
-          href="/Account"
-          id="wd-account-link"
-          className="text-white text-decoration-none d-flex flex-column align-items-center gap-1"
+      {links.map((link) => (
+        <ListGroupItem
+          key={link.path}
+          as={Link}
+          href={link.path}
+          className={`bg-black text-center border-0
+              ${
+                pathname.includes(link.label)
+                  ? "text-danger bg-white"
+                  : "text-white bg-black"
+              }`}
         >
-          <FaRegCircleUser className="icon text-white" />
-          <span>Account</span>
-        </Link>
-      </ListGroupItem>
-
-      <ListGroupItem className="border-0 bg-white text-center">
-        <Link
-          href="/Dashboard"
-          id="wd-dashboard-link"
-          className="text-danger text-decoration-none d-flex flex-column align-items-center gap-1"
-        >
-          <AiOutlineDashboard className="icon text-danger" />
-          <span>Dashboard</span>
-        </Link>
-      </ListGroupItem>
-
-      <ListGroupItem className="border-0 bg-black text-center">
-        <Link
-          href="/Courses/1234"
-          id="wd-courses-link"
-          className="text-white text-decoration-none d-flex flex-column align-items-center gap-1"
-        >
-          <BiBook className="icon text-danger" />
-          <span>Courses</span>
-        </Link>
-      </ListGroupItem>
-
-      <ListGroupItem className="border-0 bg-black text-center">
-        <Link
-          href="/Calendar"
-          id="wd-calendar-link"
-          className="text-white text-decoration-none d-flex flex-column align-items-center gap-1"
-        >
-          <BiCalendar className="icon text-danger" />
-          <span>Calendar</span>
-        </Link>
-      </ListGroupItem>
-
-      <ListGroupItem className="border-0 bg-black text-center">
-        <Link
-          href="/Inbox"
-          id="wd-inbox-link"
-          className="text-white text-decoration-none d-flex flex-column align-items-center gap-1"
-        >
-          <PiPrinter className="icon text-danger" />
-          <span>Inbox</span>
-        </Link>
-      </ListGroupItem>
-
-      <ListGroupItem className="border-0 bg-black text-center">
-        <Link
-          href="/Labs"
-          id="wd-labs-link"
-          className="text-white text-decoration-none d-flex flex-column align-items-center gap-1"
-        >
-          <FaComputer className="icon text-danger" />
-          <span>Labs</span>
-        </Link>
-      </ListGroupItem>
-
-      <ListGroupItem className="border-0 bg-black text-center">
-        <Link
-          href="https://github.com/lifeashaze/kambaz-next-js/tree/a2"
-          id="wd-labs-link"
-          className="text-white text-decoration-none d-flex flex-column align-items-center gap-1"
-        >
-          <FaGithub className="icon text-danger" />
-          <span>GitHub Repo</span>
-        </Link>
-      </ListGroupItem>
+          {link.icon({ className: "fs-1 text-danger" })}
+          <br />
+          {link.label}
+        </ListGroupItem>
+      ))}
     </ListGroup>
   );
 }
