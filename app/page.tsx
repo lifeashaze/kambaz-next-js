@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div>
       <h1>CS5610 - Web Development - Fall 2025</h1>
-      <h2>Assignment 1</h2>
+      <h2>Assignment 2</h2>
       <h3>Details:</h3>
       <div>
         <ul>
