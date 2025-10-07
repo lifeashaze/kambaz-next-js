@@ -1,3 +1,7 @@
+
+"use client"
+import { useParams } from "next/navigation";
+import * as db from "../../../Database";
 import { ListGroup, ListGroupItem } from "react-bootstrap";
 import ModulesControls from "./ModuleControls";
 import { BsGripVertical } from "react-icons/bs";
@@ -5,6 +9,8 @@ import LessonControlButtons from "./LessonControlButtons";
 import ModuleControlButtons from "./ModuleControlButtons";
 
 export default function Modules() {
+    const { cid } = useParams();
+  const modules = db.modules;
   return (
     <div className="d-flex flex-column gap-5">
       <ModulesControls />

@@ -1,5 +1,16 @@
 import Link from "next/link";
 export default function CourseNavigation() {
+  const links = [
+    "Home",
+    "Modules",
+    "Piazza",
+    "Zoom",
+    "Assignments",
+    "Quizzes",
+    "Grades",
+    "People",
+  ];
+
   return (
     <div id="wd-courses-navigation" className="wd list-group fs-5 rounded-0">
       <Link
